@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ThemeStarz">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/jquery.slider.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>Property | Home Page</title>
+<style>
+
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+</style>
+</head>
+
+<body class="page-sub-page page-agencies-listing" id="page-top">
+<!-- Wrapper -->
+<div class="wrapper">
+    <!-- Navigation -->
+    <div class="navigation">
+    </div><!-- /.navigation -->
+    <!-- end Navigation -->
+    <!-- Page Content -->
+    <div id="page-content">
+                <!-- Agent Detail -->
+        <section id="banner">
+            <div class="block has-dark-background background-color-default-darker center text-banner">
+                <div class="container">
+                    <h1 class="no-bottom-margin no-border">
+                        <div class=" col-md-offset-2 col-md-8 col-sm-4">
+                        	<style>
+								#banner .feature-box
+								{
+									height: 350px !important;
+									background-color: #fff;
+									color: #073855;
+								    padding: 20px;
+								}
+								.cite-title1
+								{
+									    font-size: 36px;
+										font-weight:700;
+										text-transform:uppercase;
+								}
+								.btn
+								{
+									    height: 50px;
+								}
+								.pickertitle
+								{
+									font-size: 16px;
+									font-weight: 700;
+									text-align: left !important;
+									margin-bottom: 8px;
+								}
+								.pickerstart
+								{
+									margin-top: 30px;
+								}
+								.boxfooter
+								{
+									font-size:13px;
+									clear:both;
+								}
+								#sidebar aside {
+									margin-bottom:0px;
+								}
+								.col-md-6 img
+								{
+									    width: 100%;
+								}
+								.nextbtn
+								{
+									    font-size: 20px;
+								}
+								.form-group ,.checkbox
+								{
+									text-align:left;
+									font-size: 12px;
+								}
+								.feature-box
+								{
+									display:inline-table;
+								}
+								@media (max-width: 767px){
+								.cite-title1 {
+									line-height: normal !important;
+									    font-size: 20px;
+										font-weight:100;
+								}
+								.feature-box h3 {
+								font-size: 12px;
+								}
+								.pickerstart
+								{
+									margin-top: 30px;
+								}
+								.form-group, .checkbox
+								{
+									text-align:left;
+									font-size: 12px;
+								}
+								.pickertitle
+								{
+									font-size: 12px;
+									font-weight: 100;
+									text-align: left !important;
+									margin-bottom: 5px;
+								}
+								.boxfooter {
+									font-size: 6px;
+									clear: both;
+									line-height: initial;
+								}
+								.howwork {
+							  		padding:2px 5px
+								}
+								
+
+								}
+							</style>
+                            <div class="feature-box" style="height: 250px;">
+                                <header class="center"><div class="cite-title1">Tell us about your property</div></header>
+                                <div class="col-md-offset-3 col-md-6 col-sm-6 pickerstart">
+                                    <section id="sidebar">
+                                        <aside id="edit-search">
+                                            <div class="pickertitle">Select Your Property Type</div>
+                                            <form role="form" id="form-sidebar" class="form-search">
+                                                <div class="form-group">
+                                                    <select name="type">
+                                                        <option>Office</option>
+                                                        <option>Multifamily</option>
+                                                        <option>Retail</option>
+                                                        <option>Industrial</option>
+                                                        <option>Land</option>
+                                                    </select>
+                                                </div><!-- /.form-group -->
+                                                <div class="form-group">
+                                                    <label for="text-field" class="pickertitle">Text Field</label>
+                                                    <input type="text" class="form-control" id="text-field" name="title" required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="text-field" class="pickertitle">Text Area</label>
+                                                    <textarea class="form-control" rows="8" name="form-contact-message"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="file-upload" type="file" class="file" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-default" data-browse-label="Browse Images">
+                                                    <figure class="note"><strong>Hint:</strong> Choose the Image!</figure>
+                                                </div>         
+                                               <div class="form-group">
+                                                    <label for="submit-area" class="pickertitle">Area</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="submit-area" name="area" pattern="\d*" required="">
+                                                        <span class="input-group-addon">m<sup>2</sup></span>
+                                                    </div>
+                                                </div>           
+                                                 <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox">Using Checkbox 
+                                                            <i class="fa fa-question-circle tool-tip"  data-toggle="tooltip" data-placement="right" title="We can use something to guide the users"></i>
+                                                        </label>
+                                                </div>                            
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn nextbtn btn-default link-arrow">
+                                                    Next
+                                                    </button>
+                                                </div>
+                                            </form><!-- /#form-map -->
+                                           
+                                        </aside><!-- /#edit-search -->
+                                    </section><!-- /#sidebar -->
+                                </div> 
+                                <div class="boxfooter">*Once you submit your preperty information local brokers will review and submit their best offer to list your property. There is <span style="text-transform:uppercase"><strong>no obligation</strong></span> to hire these brokers</div>
+                                
+                            </div><!-- /.feature-box -->
+                        </div>
+                    </h1>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end Page Content -->
+    <!-- Page Footer -->
+    <footer id="page-footer">
+        <!-- /.inner -->
+    </footer>
+    <!-- end Page Footer -->
+</div>
+
+<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="assets/js/icheck.min.js"></script>
+<script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="assets/js/jshashtable-2.1_src.js"></script>
+<script type="text/javascript" src="assets/js/jquery.numberformatter-1.2.3.js"></script>
+<script type="text/javascript" src="assets/js/tmpl.js"></script>
+<script type="text/javascript" src="assets/js/jquery.dependClass-0.1.js"></script>
+<script type="text/javascript" src="assets/js/draggable-0.1.js"></script>
+<script type="text/javascript" src="assets/js/jquery.slider.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+
+<!--[if gt IE 8]>
+<script type="text/javascript" src="assets/js/ie.js"></script>
+<![endif]-->
+<script>
+$( "#page-footer" ).load( "footer.php" );
+$( ".navigation" ).load( "header.php" );
+</script>
+
+</body>
+</html>
